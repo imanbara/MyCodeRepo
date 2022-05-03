@@ -1,0 +1,36 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  width: 1440px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: auto;
+  height: 24px;
+
+}
+.left {
+  position: right;
+  width: 46px;
+  height: 46px;
+  left: 50px;
+  top: 33px;
+}
+.right {
+  position: left;
+  left: 1005px;
+  top: 44px;
+}
